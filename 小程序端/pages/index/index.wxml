@@ -1,0 +1,11 @@
+<!--pages/index.wxml-->
+<view>
+  <view class="container">
+    <view class="background_img">
+      <view style="background-color:{{title_color}}" class="green_title">猫咪老师的铲屎官</view>
+      <button bindtap="ShovelShit" class="btn1" type="primary" hover-class="tap">一键铲屎</button>
+      <view class='res' wx:if="{{num>=1}}">已发送至硬件端</view>
+      <button bindtap="ChangeSand" class="btn2" type="primary" hover-class="tap">一键换砂</button>
+    </view>
+  </view>
+</view>
