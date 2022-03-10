@@ -1,6 +1,6 @@
 const app = getApp()
-const devicesId = "654690592" //填写在OneNet上获得的devicesId 形式就是一串数字
-const api_key = "nsSWK8nyNDhjIo46ylZ0z3tQZ4I=" //填写在OneNet上的 api-key 
+const devicesId = " " //填写在OneNet上获得的devicesId 形式就是一串数字
+const api_key = " " //填写在OneNet上的 api-key 
 const util = require('../../utils/util.js')
 
 Page({
